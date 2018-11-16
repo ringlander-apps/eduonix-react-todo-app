@@ -1,0 +1,88 @@
+.container {
+  margin: 40px auto;
+  width: 50vw;
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  background: hsla(272, 40%, 75%, 0.5);
+  border-radius: 12px;
+  color: hsla(272, 70%, 25%, 0.9);
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+}
+.list-header {
+  margin: 0 auto;
+  text-align: left;
+  width: 40vw;
+}
+.list-header h1 {
+  margin-bottom: 0px;
+  line-height: 1em;
+}
+.list-header p {
+  margin-top: 0;
+  font-size: 20px;
+  font-style: italic;
+  color: hsla(272, 29%, 56%, 0.6);
+}
+.add-todo-container {
+  background: hsla(272, 60%, 75%, 0.5);
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-radius: 12px;
+  flex-direction: column;
+  box-shadow: 0 4px 6px 0 hsla(0, 0%, 0%, 0.3);
+}
+.input-group {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.input-group label {
+  text-align: left;
+  font-size: 1.2em;
+  margin-left: 3px;
+}
+.text-input {
+  outline: 0;
+  border: none;
+  padding: 14px;
+  background: hsla(272, 40%, 60%, 0.2);
+  color: hsla(272, 50%, 30%, 0.9);
+  border-radius: 8px;
+  box-shadow: inset 0 2px 4px 0 hsla(272, 66%, 20%, 0.08);
+}
+.submit-button {
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 14px;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  background: hsla(272, 70%, 25%, 0.9);
+  border: 0;
+  color: hsla(272, 0%, 88%, 0.9);
+  border-radius: 8px;
+}
+.submit-button:hover {
+  background: hsla(272, 70%, 20%, 0.9);
+}
+.list-body {
+  display: flex;
+  width: 100%;
+}
+.todo-list {
+  margin: 20px auto;
+  display: grid;
+}
+.todo-list ul {
+  margin-top: 10px;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 12px;
+}
